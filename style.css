@@ -1,9 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.image {
+#carousel {
+    margin: 50px auto;
     width: 400px;
     height: 400px;
-    background: green;
+    border: 10px solid #000;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 2000px;
+}
+li {
+    list-style: none;
+    width: 400px;
+    height: 400px;
+    float: left;
 }
