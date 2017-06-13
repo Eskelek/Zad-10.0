@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 #carousel {
+    position: relative;
     margin: 50px auto;
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
     border: 10px solid #000;
     overflow: hidden;
 }
@@ -16,4 +20,38 @@ li {
     width: 400px;
     height: 400px;
     float: left;
+}
+.lbutton {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    height: 400px;
+    width: 10%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.rbutton {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    height: 400px;
+    width: 10%;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+}
+#right {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+#left {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+i {
+    cursor: pointer;
 }
