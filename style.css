@@ -21,37 +21,24 @@ li {
     height: 400px;
     float: left;
 }
-.lbutton {
+.button {
     margin: 0;
     position: absolute;
-    left: 0;
     color: #fff;
     height: 400px;
     width: 10%;
     text-align: center;
     background-color: rgba(0,0,0,0.6);
 }
-.rbutton {
-    margin: 0;
-    position: absolute;
+.right {
     right: 0;
-    height: 400px;
-    width: 10%;
-    color: #fff;
-    text-align: center;
-    background-color: rgba(0,0,0,0.6);
 }
-#right {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    
+.left {
+    left: 0;
 }
-#left {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-i {
+.icon {
     cursor: pointer;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);  
 }
